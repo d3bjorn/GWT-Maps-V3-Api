@@ -36,7 +36,7 @@ public class MapCanvasProjection extends JavaScriptObject {
    * @param pixel
    */
   public final native LatLng fromDivPixelToLatLng(Point pixel) /*-{
-    this.fromDivPixelToLatLng(pixel);
+    return this.fromDivPixelToLatLng(pixel);
   }-*/;
   
   /**
@@ -44,15 +44,15 @@ public class MapCanvasProjection extends JavaScriptObject {
    * @param latlng
    */
   public final native Point fromLatLngToContainerPixel(LatLng latlng) /*-{
-    this.fromLatLngToContainerPixel(latlng);
+    return this.fromLatLngToContainerPixel(latlng);
   }-*/;
   
   /**
    * Computes the pixel coordinates of the given geographical location in the DOM element that holds the draggable map.
    * @param latlng
    */
-  public final native void fromLatLngToDivPixel(LatLng latlng) /*-{
-    this.fromLatLngToDivPixel(latlng);
+  public final native Point fromLatLngToDivPixel(LatLng latlng) /*-{
+    return this.fromLatLngToDivPixel(latlng);
   }-*/;
   
   /**
