@@ -42,9 +42,9 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:ssh://github.com/branflake2267/GWT-Maps-V3-Api.git</connection>
-		<developerConnection>scm:git:ssh://github.com/branflake2267/GWT-Maps-V3-Api.git</developerConnection>
-		<url>https://github.com/branflake2267/GWT-Maps-V3-Api</url>
+		<connection>scm:git:ssh://github.com/d3bjorn/GWT-Maps-V3-Api.git</connection>
+		<developerConnection>scm:git:ssh://github.com/d3bjorn/GWT-Maps-V3-Api.git</developerConnection>
+		<url>https://github.com/d3bjorn/GWT-Maps-V3-Api</url>
 	</scm>
 
 	<!-- Dev info -->
