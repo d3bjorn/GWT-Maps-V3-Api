@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
@@ -19,7 +18,7 @@
 	<parent>
 		<groupId>com.google.gwt.maps</groupId>
 		<artifactId>gwt-maps-api-v3</artifactId>
-		<version>3.8.0-wcar1-SNAPSHOT</version>
+		<version>3.8.0-wcar1</version>
 	</parent>
 
 	<properties>
@@ -162,12 +161,10 @@
 						
 						<div align="center">
 							<br> <span class="gh-section">Follow us on GitHub</span>
-							<iframe
-								src="http://ghbtns.com/github-btn.html?user=branflake2267&repo=GWT-Maps-V3-Api&type=fork&count=true&size=large"
+							<iframe src="http://ghbtns.com/github-btn.html?user=branflake2267&repo=GWT-Maps-V3-Api&type=fork&count=true&size=large"
 								allowtransparency="true" frameborder="0" scrolling="0" width="170px"
 								height="30px"></iframe>
-							<iframe
-								src="http://ghbtns.com/github-btn.html?user=branflake2267&repo=GWT-Maps-V3-Api&type=watch&count=true&size=large"
+							<iframe src="http://ghbtns.com/github-btn.html?user=branflake2267&repo=GWT-Maps-V3-Api&type=watch&count=true&size=large"
 								allowtransparency="true" frameborder="0" scrolling="0" width="170px"
 								height="30px"></iframe>
 						</div>
@@ -207,7 +204,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore></ignore>
+										<ignore />
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
