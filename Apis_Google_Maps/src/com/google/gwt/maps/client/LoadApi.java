@@ -14,9 +14,9 @@ import com.google.gwt.ajaxloader.client.AjaxLoader.AjaxLoaderOptions;
 public class LoadApi {
 
 	/**
-	 * Note: If you use 3, it will take the newest stable available. Don't want that. We didn't test with that yet!
+	 * Note: If you use 3, it will take the newest stable available.
 	 */
-	public final static String API_VERSION = "3.9";
+	public static String API_VERSION = "3";
 	
 	/**
 	 * Libraries not loaded by default <br>
